@@ -16,12 +16,12 @@
     const iframe = "iframe.giscus-frame";
     const lightTheme = "light";
     const darkTheme = "dark";
-    let initTheme = darkTheme;
+    let initTheme = lightTheme;
 
     if ($("html[data-mode=dark]").length > 0
         || ($("html[data-mode]").length == 0
             && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-      initTheme = darkTheme;
+      initTheme = lightTheme;
     }
 
     addEventListener("message", (event) => {

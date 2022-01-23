@@ -18,14 +18,15 @@ timezone: Europe/Warsaw
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Programming blog                # the main title
+title: Michał Bator                # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Functional programming and modern architecture evangelist,
+         somewhere in the Fortune 200.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  The place where bright programming ideas live.  
+  Michał Bator takes care of this place.
+  It also servers as his programming blog.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://mikelthief.github.io'
@@ -34,13 +35,13 @@ github:
   username: MikelThief             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username:           # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Michał Bator
-  email: example@doamin.com             # change to your email address
+  email: m.bator2@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username      # change to your twitter homepage
@@ -72,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark   # [light|dark]
+theme_mode:  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

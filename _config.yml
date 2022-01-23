@@ -18,9 +18,9 @@ timezone: Europe/Warsaw
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: SpecCodeOps Blog               # the main title
+title: Programemista               # the main title
 
-tagline: The place where bright programming ideas live.   # it will display as the sub-title
+tagline: A place where bright programming ideas live.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   The place where bright programming ideas live.  

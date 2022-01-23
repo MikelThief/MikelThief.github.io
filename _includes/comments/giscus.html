@@ -49,7 +49,7 @@
       };
 
       const giscus = document.querySelector(iframe).contentWindow;
-      giscus.postMessage(message, origin);
+      giscus.postMessage({ giscus: message }, origin);
     });
 
   });

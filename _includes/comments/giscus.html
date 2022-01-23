@@ -21,7 +21,7 @@
     if ($("html[data-mode=dark]").length > 0
         || ($("html[data-mode]").length == 0
             && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-      initTheme = lightTheme;
+      initTheme = darkTheme;
     }
 
     addEventListener("message", (event) => {

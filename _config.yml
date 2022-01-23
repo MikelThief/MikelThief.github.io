@@ -98,6 +98,7 @@ comments:
     issue_term: title  # < url | pathname | title | ...>
   giscus:
     repo: MikelThief/mikelthief.github.io        # <gh-username>/<repo>
+    repo_id: "R_kgDOGuKyyA"
     category: Posts' discussions  # < category name in Discussions >
     category_id: DIC_kwDOGuKyyM4CA0YC  # < category ID in Discussions >
     mapping: title # < pathname | url | title | ... >
